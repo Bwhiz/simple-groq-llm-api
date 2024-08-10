@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import uvicorn
-from sample import *
+from base import *
 app = FastAPI()
 
 

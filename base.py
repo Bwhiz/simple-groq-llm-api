@@ -38,5 +38,6 @@ def generate(model, query, temperature=0):
     return answer
 
 if __name__ == "__main__":
+    # sample run:
     query = "what is the capital of Abia state in Nigeria"
     print(generate(models[1], query, temperature=0.1))
