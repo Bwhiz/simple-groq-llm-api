@@ -43,6 +43,7 @@ This project provides a simple API for generating chat completions using large l
     ```bash
     uvicorn app:app --host 127.0.0.1 --port 8080
     ```
+    
 ### Endpoints
 - Health Check: `GET /healthcheck/`
     - Returns a JSON response indicating that the application is up and running.
